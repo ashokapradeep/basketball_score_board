@@ -1,0 +1,49 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    <div class="time-container">
+        <span class="time" id="time">00:00</span>
+    </div>
+
+    <div class="home-title-container">
+        <h3 class="title">H O M E</h3>
+    </div>
+
+    <div class="guest-title-container">
+        <h3 class="title">G U E S T</h3>
+    </div>
+
+    <div class="score-home">
+        <h3 id="homeScore" class="home-score-text"></h3>
+    </div>
+
+    <div class="score-guest">
+        <h3 id="guestScore" class="guest-score-text"></h3>
+    </div>
+
+    <div class="score-home-addPoints-container">
+        <button class="btn-one" onclick="hAddOne()">+1</button>
+        <button class="btn-two" onclick="hAddTwo()">+2</button>
+        <button class="btn-three" onclick="hAddThree()">+3</button>
+
+    </div>
+
+    <div class="score-guest-addPoints-container">
+        <button class="btn-one" onclick="gAddOne()">+1</button>
+        <button class="btn-two" onclick="gAddTwo()">+2</button>
+        <button class="btn-three" onclick="gAddThree()">+3</button>
+    </div>
+    <button class="reset" onclick="reset()">RESET</button>
+    <button class="start-time" onclick="startTime()">START</button>
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>

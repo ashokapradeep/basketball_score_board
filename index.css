@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 420px;
+    background: #130f40;
+}
+
+.time-container{
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    right: 165px;
+    top: 10px;
+}
+
+.time{
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.home-title-container{
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    left: 85px;
+    top: 68px;
+}
+
+.guest-title-container{
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    right: 85px;
+    top: 68px;
+}
+
+.title{
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-style: normal;
+    line-height: 1px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.score-home{
+    position: absolute;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    left: 85px;
+    top: 135px;
+    color: red;
+    font-style: normal;
+    line-height: 1px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.score-guest{
+    position: absolute;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    right: 85px;
+    top: 135px;
+    color: red;
+    font-style: normal;
+    line-height: 1px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.score-home-addPoints-container{
+    position: absolute;
+    background-color: transparent;
+    width: 155px;
+    height: 50px;
+    left: 85px;
+    top: 300px;
+}
+
+.score-guest-addPoints-container{
+    position: absolute;
+    background-color: transparent;
+    width: 155px;
+    height: 50px;
+    right: 85px;
+    top: 300px;
+}
+
+.btn-one{
+    position: absolute;
+    background-color: #95afc0;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.btn-two{
+    position: absolute;
+    background-color: #95afc0;
+    width: 40px;
+    height: 40px;
+    right: 57px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.btn-three{
+    position: absolute;
+    background-color: #95afc0;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.reset {
+    position: absolute;
+    background-color: #be2edd;
+    width: 155px;
+    height: 40px;
+    right: 30px;
+    top: 360px;
+    border-radius: 5px;
+}
+.start-time {
+    position: absolute;
+    background-color: #be2edd;
+    width: 155px;
+    height: 40px;
+    left: 30px;
+    top: 360px;
+    border-radius: 5px;
+}
